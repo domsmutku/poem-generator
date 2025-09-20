@@ -1,43 +1,82 @@
 body {
   background-color: #73345c;
-  background-image: url("https://i.imgur.com/J9yX1UH.jpeg");
+  background-image: url("https://i.imgur.com/D1UGJ1C.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .container {
-  background-color: #473160;
+  background-color: #c49760;
+  border: solid #785432;
   margin: 0 auto;
   margin-top: 60px;
   padding: 30px;
   position: relative;
   text-align: center;
   max-width: 600px;
+  border-radius: 30px;
 }
 
 .container-second {
-  background-color: #473160;
+  background-color: #c49760;
+  border: solid #785432;
   margin: 0 auto;
   margin-top: 70px;
   padding: 10px;
   position: relative;
   text-align: center;
   max-width: 600px;
+  border-radius: 30px;
 }
 
 h1 {
-  color: #e7818c;
+  color: #33261e;
+  font-family: "Pirata One", system-ui;
+  font-size: 56px;
+  margin-top: 5px;
 }
 
 footer {
-  color: #e7818c;
+  color: #33261e;
   text-align: center;
+  font-family: "Germania One", system-ui;
 }
 
 a {
-  color: #b75f85;
+  color: #33321c;
 }
 
 .poem-example {
-  color: #e7818c;
+  color: #33261e;
+  font-family: "Germania One", system-ui;
+  font-size: 20px;
+}
+
+#input {
+  font-family: "Germania One", system-ui;
+  font-size: 20px;
+  width: 350px;
+  border: 3px solid #785432;
+  padding: 4px 5px 5px 5px;
+}
+
+#button {
+  background: #d7a56c;
+  color: #33261e;
+  font-family: "Pirata One", system-ui;
+  font-size: 24px;
+  border: 3px solid #785432;
+  border-radius: 4px;
+  box-shadow: 2px 2px #513821;
+  cursor: pointer;
+}
+
+#button:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px #513821;
+}
+
+#button:active {
+  transform: translate(1px 1px);
+  box-shadow: 1px 1px #513821;
 }
