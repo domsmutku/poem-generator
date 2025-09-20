@@ -34,12 +34,21 @@ h1 {
   font-family: "Pirata One", system-ui;
   font-size: 56px;
   margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 footer {
   color: #33261e;
   text-align: center;
   font-family: "Germania One", system-ui;
+}
+
+p {
+  color: #33261e;
+  text-align: center;
+  margin-top: 0px;
+  font-family: "Germania One", system-ui;
+  font-size: 20px;
 }
 
 a {
